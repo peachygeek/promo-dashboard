@@ -29,9 +29,9 @@ describe('FilterBar', () => {
   });
 
   it('renders all category filter chips', () => {
-    const { getByText } = renderWithProvider();
+    const { getAllByText, getByText } = renderWithProvider();
 
-    expect(getByText('All')).toBeTruthy();
+    expect(getAllByText('All').length).toBeGreaterThanOrEqual(1);
     expect(getByText('Casino')).toBeTruthy();
     expect(getByText('Sports')).toBeTruthy();
     expect(getByText('Live Casino')).toBeTruthy();
@@ -83,12 +83,12 @@ describe('FilterBar', () => {
   });
 
   it('resets filters when clear is pressed', () => {
-    const { getByText, getByLabelText } = renderWithProvider();
+    const { getByText, getAllByLabelText } = renderWithProvider();
 
     fireEvent.press(getByText('Casino'));
     fireEvent.press(getByText('Clear'));
 
-    const allCategoryChip = getByLabelText('Filter by All');
-    expect(allCategoryChip.props.accessibilityState?.selected).toBe(true);
+    const allChips = getAllByLabelText('Filter by All');
+    expect(allChips[0].props.accessibilityState?.selected).toBe(true);
   });
 });

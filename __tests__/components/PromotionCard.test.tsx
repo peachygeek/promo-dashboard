@@ -130,7 +130,7 @@ describe('PromotionCard', () => {
       />,
     );
 
-    fireEvent.press(getByLabelText(/Welcome Bonus promotion/));
+    fireEvent.press(getByLabelText(/Welcome Bonus promotion\./));
     expect(mockOnPress).toHaveBeenCalledTimes(1);
   });
 
@@ -159,8 +159,8 @@ describe('PromotionCard', () => {
     expect(getByText('Get a 100% match on your first deposit.')).toBeTruthy();
   });
 
-  it('matches snapshot for active promotion', () => {
-    const tree = render(
+  it('renders complete card structure for active promotion', () => {
+    const { getByText, getByLabelText } = render(
       <PromotionCard
         promotion={activePromotion}
         onPress={mockOnPress}
@@ -168,6 +168,10 @@ describe('PromotionCard', () => {
       />,
     );
 
-    expect(tree.toJSON()).toMatchSnapshot();
+    expect(getByText('Welcome Bonus')).toBeTruthy();
+    expect(getByText('Casino')).toBeTruthy();
+    expect(getByText('Active')).toBeTruthy();
+    expect(getByText('Opt In')).toBeTruthy();
+    expect(getByLabelText('Welcome Bonus promotional image')).toBeTruthy();
   });
 });

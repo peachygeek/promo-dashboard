@@ -116,7 +116,7 @@ describe('PromotionListScreen', () => {
       expect(getByText('Welcome Bonus')).toBeTruthy();
     });
 
-    fireEvent.press(getByLabelText(/Welcome Bonus promotion/));
+    fireEvent.press(getByLabelText(/Welcome Bonus promotion\./));
 
     await waitFor(() => {
       expect(getByText('Promotion Details')).toBeTruthy();
