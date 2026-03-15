@@ -1,0 +1,180 @@
+{
+  "promotions": [
+    {
+      "id": 1,
+      "title": "Welcome Bonus",
+      "description": "Get a 100% match on your first deposit up to $500. New players only. Wagering requirements apply — 30x bonus amount before withdrawal.",
+      "category": "Casino",
+      "status": "active",
+      "optedIn": true,
+      "startDate": "2026-08-01",
+      "endDate": "2026-08-31",
+      "imageUrl": "https://via.placeholder.com/600x300/4A90D9/FFFFFF?text=Welcome+Bonus"
+    },
+    {
+      "id": 2,
+      "title": "Free Bet Friday",
+      "description": "Place a qualifying bet of $10 or more and receive a $5 free bet every Friday. Valid on pre-match singles with odds of 1.50 or greater.",
+      "category": "Sports",
+      "status": "active",
+      "optedIn": true,
+      "startDate": "2026-07-01",
+      "endDate": "2026-12-31",
+      "imageUrl": "https://via.placeholder.com/600x300/2ECC71/FFFFFF?text=Free+Bet+Friday"
+    },
+    {
+      "id": 3,
+      "title": "Loyalty Cashback",
+      "description": "Earn 10% weekly cashback on net losses, credited every Monday. Maximum cashback of $200 per week. VIP members get 15%.",
+      "category": "Casino",
+      "status": "expired",
+      "optedIn": false,
+      "startDate": "2026-01-01",
+      "endDate": "2026-06-30",
+      "imageUrl": "https://via.placeholder.com/600x300/E74C3C/FFFFFF?text=Loyalty+Cashback"
+    },
+    {
+      "id": 4,
+      "title": "Champions League Special",
+      "description": "Bet on any Champions League match and get enhanced odds. Boosted markets updated weekly. Maximum stake $50 per enhanced selection.",
+      "category": "Sports",
+      "status": "active",
+      "optedIn": false,
+      "startDate": "2026-09-01",
+      "endDate": "2026-12-15",
+      "imageUrl": "https://via.placeholder.com/600x300/F39C12/FFFFFF?text=Champions+League"
+    },
+    {
+      "id": 5,
+      "title": "Slots Tournament",
+      "description": "Compete in our weekly slots tournament for a share of the $10,000 prize pool. Top 50 players win. Minimum 100 spins to qualify.",
+      "category": "Casino",
+      "status": "active",
+      "optedIn": true,
+      "startDate": "2026-07-15",
+      "endDate": "2026-10-15",
+      "imageUrl": "https://via.placeholder.com/600x300/9B59B6/FFFFFF?text=Slots+Tournament"
+    },
+    {
+      "id": 6,
+      "title": "Live Dealer Bonus",
+      "description": "Get $25 bonus when you play 5 live dealer games in a single day. Bonus must be wagered 20x on live casino games within 7 days.",
+      "category": "Live Casino",
+      "status": "active",
+      "optedIn": false,
+      "startDate": "2026-08-01",
+      "endDate": "2026-11-30",
+      "imageUrl": "https://via.placeholder.com/600x300/1ABC9C/FFFFFF?text=Live+Dealer+Bonus"
+    },
+    {
+      "id": 7,
+      "title": "Refer a Friend",
+      "description": "Earn $50 for every friend who signs up and deposits $20 or more. No limit on referrals. Friends also receive a $25 welcome bonus.",
+      "category": "General",
+      "status": "active",
+      "optedIn": false,
+      "startDate": "2026-01-01",
+      "endDate": "2027-01-01",
+      "imageUrl": "https://via.placeholder.com/600x300/3498DB/FFFFFF?text=Refer+a+Friend"
+    },
+    {
+      "id": 8,
+      "title": "Poker Night Freeroll",
+      "description": "Join our $5,000 guaranteed freeroll every Thursday at 8 PM EST. No entry fee. Open to all registered players with at least one deposit.",
+      "category": "Poker",
+      "status": "active",
+      "optedIn": false,
+      "startDate": "2026-06-01",
+      "endDate": "2026-12-31",
+      "imageUrl": "https://via.placeholder.com/600x300/E67E22/FFFFFF?text=Poker+Freeroll"
+    },
+    {
+      "id": 9,
+      "title": "Accumulator Boost",
+      "description": "Get up to 70% extra on winning accumulators with 4+ selections. All selections must have odds of 1.20 or greater. Maximum boost payout $50,000.",
+      "category": "Sports",
+      "status": "active",
+      "optedIn": false,
+      "startDate": "2026-07-01",
+      "endDate": "2026-12-31",
+      "imageUrl": "https://via.placeholder.com/600x300/27AE60/FFFFFF?text=Acca+Boost"
+    },
+    {
+      "id": 10,
+      "title": "Birthday Bonus",
+      "description": "Celebrate your birthday with a free $20 bonus! Automatically credited on your birthday. Must have made a deposit in the last 30 days.",
+      "category": "General",
+      "status": "active",
+      "optedIn": true,
+      "startDate": "2026-01-01",
+      "endDate": "2027-01-01",
+      "imageUrl": "https://via.placeholder.com/600x300/8E44AD/FFFFFF?text=Birthday+Bonus"
+    },
+    {
+      "id": 11,
+      "title": "Early Payout Offer",
+      "description": "If your team goes 2 goals ahead, we pay out your bet as a winner — even if the other team comes back. Pre-match singles only.",
+      "category": "Sports",
+      "status": "expired",
+      "optedIn": true,
+      "startDate": "2026-01-15",
+      "endDate": "2026-05-31",
+      "imageUrl": "https://via.placeholder.com/600x300/C0392B/FFFFFF?text=Early+Payout"
+    },
+    {
+      "id": 12,
+      "title": "Roulette Cashback",
+      "description": "Get 5% cashback on all roulette bets placed during the weekend. Cashback credited Monday morning. No wagering requirements.",
+      "category": "Live Casino",
+      "status": "active",
+      "optedIn": false,
+      "startDate": "2026-08-01",
+      "endDate": "2026-11-30",
+      "imageUrl": "https://via.placeholder.com/600x300/16A085/FFFFFF?text=Roulette+Cashback"
+    },
+    {
+      "id": 13,
+      "title": "New Game Launch Spins",
+      "description": "Get 50 free spins on every new slot release. Spins credited automatically. Winnings capped at $100 and subject to 25x wagering.",
+      "category": "Casino",
+      "status": "active",
+      "optedIn": false,
+      "startDate": "2026-09-01",
+      "endDate": "2026-12-31",
+      "imageUrl": "https://via.placeholder.com/600x300/2980B9/FFFFFF?text=Launch+Spins"
+    },
+    {
+      "id": 14,
+      "title": "VIP Reload Bonus",
+      "description": "Exclusive 50% reload bonus up to $250 every week for VIP members. 15x wagering requirement. Available Monday through Wednesday.",
+      "category": "Casino",
+      "status": "expired",
+      "optedIn": false,
+      "startDate": "2026-02-01",
+      "endDate": "2026-06-30",
+      "imageUrl": "https://via.placeholder.com/600x300/D35400/FFFFFF?text=VIP+Reload"
+    },
+    {
+      "id": 15,
+      "title": "Horse Racing Daily Double",
+      "description": "Pick winners of two selected races for a chance to win a $1,000 free bet. One entry per day. Selections must be made before the first race.",
+      "category": "Sports",
+      "status": "active",
+      "optedIn": false,
+      "startDate": "2026-08-15",
+      "endDate": "2026-11-15",
+      "imageUrl": "https://via.placeholder.com/600x300/7D3C98/FFFFFF?text=Daily+Double"
+    },
+    {
+      "id": 16,
+      "title": "Baccarat Streak Bonus",
+      "description": "Win 5 hands in a row at any baccarat table and receive a $100 bonus. Tracked automatically. Multiple streaks allowed per day.",
+      "category": "Live Casino",
+      "status": "active",
+      "optedIn": false,
+      "startDate": "2026-09-01",
+      "endDate": "2026-12-31",
+      "imageUrl": "https://via.placeholder.com/600x300/148F77/FFFFFF?text=Baccarat+Streak"
+    }
+  ]
+}
