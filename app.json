@@ -1,0 +1,16 @@
+{
+  "expo": {
+    "name": "Promo Dashboard",
+    "slug": "promo-dashboard",
+    "version": "1.0.0",
+    "orientation": "default",
+    "scheme": "promo-dashboard",
+    "userInterfaceStyle": "light",
+    "platforms": ["web"],
+    "web": {
+      "bundler": "metro",
+      "output": "single",
+      "favicon": "./assets/favicon.png"
+    },
+  }
+}
