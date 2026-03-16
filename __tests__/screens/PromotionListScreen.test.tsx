@@ -56,8 +56,8 @@ function createTestApp() {
       <FilterProvider>
         <NavigationContainer>
           <Stack.Navigator>
-            <Stack.Screen name="PromotionList" component={PromotionListScreen} />
-            <Stack.Screen name="PromotionDetail" component={PromotionDetailScreen} />
+            <Stack.Screen name="PromotionList" component={PromotionListScreen} options={{ title: 'Promotions' }} />
+            <Stack.Screen name="PromotionDetail" component={PromotionDetailScreen} options={{ title: 'Promotion Details' }} />
           </Stack.Navigator>
         </NavigationContainer>
       </FilterProvider>
@@ -119,7 +119,7 @@ describe('PromotionListScreen', () => {
     fireEvent.press(getByLabelText(/Welcome Bonus promotion\./));
 
     await waitFor(() => {
-      expect(getByText('Promotion Details')).toBeTruthy();
+      expect(getByText('Start Date')).toBeTruthy();
     });
   });
 });
